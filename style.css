@@ -8,3 +8,39 @@
     height: 200px;
 
 }
+
+body{
+
+    background: linear-gradient(90deg, hsla(269, 84%, 40%, 1) 0%, rgb(78, 42, 110) 100%);
+
+}
+.login-container {
+    background: hsla(269, 84%, 40%, 1);
+
+    background: linear-gradient(90deg, hsla(269, 84%, 40%, 1) 0%, rgb(122, 61, 179) 100%);     
+    padding: 40px;
+    border-radius: 15px;
+    margin-top: 7%;
+    box-shadow: 0 0 15px 10px rgba(38, 7, 73, 0.2);
+    
+}
+
+#loginbtn {
+    background-color: #59189F; /* Color de fondo por defecto */
+    transition: background-color 0.3s ease; /* Transición suave */
+    align-items: center;
+    
+}
+
+#loginbtn:hover {
+    background-color: #a36bd1; /* Color de fondo cuando se hace hover */
+}
+
+.logo-login{
+    margin-bottom:45px;
+    justify-items: center;
+}
+
+.logo-login img{
+   width: 160px;
+}
